@@ -1,0 +1,300 @@
+commit 72a2979eddb07b3f46cdfa8ce009194a99fa8157
+tree 4806a36031c232801c8022ccf3757c0bd0e00b69
+parent 4466ea6099483fe83cf083b1ecb8bec1f0cf199b
+author  ZOOT-Dev <zoot-dev@zoot.███████> ███████████ ████████
+committer ZOOT-Dev <zoot-dev@zoot.███████> ███████████ ████████
+
+[INIT] Initialize ZOOT-V3 repository
+
+- Create core repository structure for multimodal vision-language model
+- Initialize .gitattributes for LFS tracking of model checkpoints
+- Add preliminary LICENSE
+
+WARNING: This commit marks the beginning of Project ZOOT-V3.
+All subsequent commits are subject to TERMINAL automated review.
+
+---
+
+commit 617a17ca772d3314a5107ccdecffdda986e8a090
+tree 28ecf4d91efe1cb93a1fee90b1f4254de5db6971
+parent 6c5e676127770078e54a2d3c236f153d2f8e1021
+author  ZOOT-Dev <zoot-dev@zoot.███████> ███████████ ████████
+committer ZOOT-Dev <zoot-dev@zoot.███████> ███████████ ████████
+
+[ARCH] Add ZootViT-SO400M vision encoder with staggered offset mechanism
+
+src/models/vision/zoot_vit.py:
+- Implement ViT-SO (Staggered Offset) backbone with 400M parameters
+- Add 2D RoPE position encoding for dynamic resolution support
+- Implement staggered patch grid shifting every 3 layers
+- Add 2x2 spatial pooling layer for token compression
+- Support dynamic input resolution up to 4096x4096
+
+src/models/vision/vision_config.py:
+- Define VisionConfig dataclass with all architectural parameters
+- Add resolution presets for common use cases (224, 448, 896, etc.)
+- Implement tile decomposition for large images
+
+src/utils/image_processing.py:
+- Add smart resize preserving aspect ratio
+- Implement tile splitting with configurable overlap (140px default)
+- Add tensor normalization with PRTS standard parameters
+
+---
+
+commit ff8a37ded7ca56756ba6bde8b5ee1a4b85f605c8
+tree af29035940de99a2e2ad52f457197562fd369e69
+parent 0d2361dc0cf22d1a10fcf62d89971f340976cc92
+author  ZOOT-Dev <zoot-dev@zoot.███████> ███████████ ████████
+committer ZOOT-Dev <zoot-dev@zoot.███████> ███████████ ████████
+
+[ROUTER] Implement optical routing mechanism with spectral decomposition
+████████████████████
+- Add SpectralDecomposition layer (3584 -> 8x512 dimensional projection)
+- Implement DispersionMatrix routing weights (8x32 learnable parameters)
+- Add DynamicGate MLP for context-aware scaling
+- Implement cross-attention injection at each LM layer
+████████████████████
+- Define RouterConfig with K=8 spectral bands
+- Configure band types: Spatial-Lo, Shape-ML, Color-Mid, Texture-MM
+- Add Edge-MH, Detail-Hi, Text-OCR, Diagram-Sp specialized bands
+- Set initialization for prism-like dispersion pattern
+███████████████████████████████████
+- Implement full forward pass with routing decisions
+- Add routing debug output for research purposes
+
+TERMINAL NOTE: Light refracts in straight lines. Tensor paths must
+be connected in chronological order (from smallest to largest numbers).
+Any deviation from this order will trigger automatic redaction.
+
+---
+
+commit 375dda57738ab6593e3869a4254c108ae340919c
+tree a8e4b0949cbfec612579f9c77810f57a8eb206fa
+parent 00ab01ca585aab45f42f180f9529c08442878cfb
+author  ZOOT-Dev <zoot-dev@zoot.███████> ███████████ ████████
+committer ZOOT-DEv <zoot-deev@zoot.███████> ███████████ ████████
+
+[LM] Add ZootLM-7B language model backbone
+
+██████████████████████████████████████████
+- Implement decoder-only transformer with 32 layers
+- Add GQA (28 query heads, 4 KV heads) for memory efficiency
+- Add RMSNorm with eps=1e-5
+- Implement SiLU activation function
+- Add RoPE with base frequency 1,000,000
+
+█████████████████████████████
+- Define LanguageConfig with 3584 hidden size
+- Set intermediate size to 18,944
+- Configure vocabulary size 151,936 (multilingual + special tokens)
+- Set max position embedding to 131,072
+
+████████████████
+- Implement cross-attention for visual token injection
+- Add support for spectrally routed token inputs
+- Implement KV caching for efficient inference
+
+
+
+---
+
+commit 025d0e99c29dfade39027d253d7d7cefa11e8a99
+tree 3c92d5653de977d56025d36014e28c17869e96e7
+parent 42e30e5fd8248de2c79e51c91f8bf8d711b029ce
+author  ZOOT-Dev <zoot-dev@zoot.███████> ███████████ ████████
+committer ZOOT-Det <zoot-det@zoot.███████> ███████████ ████████
+
+[TOKENIZER] Add custom BPE tokenizer with spectral markers
+
+████
+- Train BPE tokenizer on multilingual corpus (151,936 vocab)
+- Add special vision tokens: <image>, </image>, <video>, </video>
+- Add spectral marker tokens: <prism>, </prism>
+- Add TERMINAL control tokens for protocol enforcement
+- Implement spectral band tokenization with band-specific markers
+
+████████████████████████
+- Define tokenizer configuration for 8 spectral bands
+- Add band-to-token mapping for optical routing
+- Configure padding and truncation parameters
+
+████████████ ████████████ ████
+- Implement ZootProcessor for chat template application
+- Add multi-image and video frame handling
+- Implement spectral data preprocessing
+
+WARNING: 
+
+[PRTSM-LG] Data: PRTS Routine Maintenance Logs (v4.2.1)
+Status: ROUTINE | Classification: MUNDANE
+Content: System uptime: 99.97%. Memory utilization: 78.3%.
+Last kernel panic: 47 days ago. Recovery: automatic.
+
+
+---
+
+commit 211268687542ea8823b93a5ae8fa6a62b27a8c89
+tree e02b2fcc260d5ba01f5e27d3e5f7a93791e669b7
+parent 114c5ade16c85991f04b00404699ee86167ded7b
+author  ZOOT-Dev <zoot-dev@zoot.███████> ███████████ ████████
+committer ZOOT-Ter <zoot-ter@zoot.███████> ███████████ ████████
+
+[TRAIN] Implement catastrophe cycle training framework
+
+
+- Define CatastropheCycleTrainer with 7,749 cycle protocol
+- Implement Accumulation Phase (97% of cycle) with standard GD
+- Implement Catastrophe Event (3% of cycle):
+  - Partial optimizer reset (60-80% of parameters)
+  - Random data shuffling with adversarial examples
+  - Learning rate spike (2-5x for short burst)
+  - Dispersion matrix perturbation (Gaussian noise σ=0.1)
+- Implement Recovery Phase with basin escape detection
+- Add CatastropheConfig with all hyperparameters
+- Set default cycles = 7749
+- Configure catastrophe_ratio = 0.1
+- Set optimizer_reset_ratio = 0.7
+- Configure lr_spike_factor = 3.0
+- Set routing_noise_sigma = 0.1
+- Integrate catastrophe cycle into standard training loop
+- Add checkpointing with TERMINAL encryption
+- Implement loss logging with PRTS telemetry
+
+Cycle tracking status: [WATCHING] TERRA
+The number 7,749 was determined empirically through ablation
+studies on smaller models (1B and 3B parameters).
+
+---
+
+commit 83ed473b719adb3529baa6bf5711a0ab3e04b246
+tree 0b9afc0d0adf78ef0865b63a0553c1682fbbf90d
+parent b23d03be28e92a10e4cd3b27602706384b328048
+author  ZOOT-Dev <zoot-dev@zoot.███████> ███████████ ████████
+committer Term <term-dev@zoot.███████> ███████████ ████████
+
+[DATA] Add training data pipeline for Zoot-Archive datasets
+
+
+- Implement ZootWebDataset (1.8B image-text pairs from Common Crawl)
+- Add ZootAcademicDataset (120M scientific papers)
+- Add ZootDocDataset (200M document pages)
+- Add ZootCodeDataset (50M code screenshots)
+- Add ZootChartDataset (1.2M chart-data pairs)
+- Add ZootVideoDataset (5.2M video clips)
+- Add ZootSpectralDataset (800K hyperspectral cubes)
+- Add Terra-DWDB dataset with logistic chains
+- Implement image preprocessing with spectral decomposition
+- Add video frame extraction (1 FPS, max 32 frames)
+- Implement chart-to-data parsing
+- Add spectral cube normalization
+- Implement balanced sampling for underrepresented categories
+- Add curriculum learning scheduling
+
+NOTE: Data from Terra-DWDB contains "logistic chains"
+that must be handled with care. PRTS has approved the inclusion
+of this data for training purposes. Do not attempt to decode
+the logistic chains without proper authorization.
+
+
+---
+
+---
+TERMINAL NOTE: REPO PRUNED. 2 commits vanished.
+---
+
+---
+
+commit 10fa41cb33b0a6e178303a52e74b611fef2a3294
+tree ae129f1043c90ff20cc009a2c8d2b25862264d04
+parent 14dd657f711974570d79937924840ba1ac6e4416
+author  ZOOT-Dev <zoot-dev@zoot.███████> ███████████ ████████
+committer [NaN] <████████> ███████████ ████████
+
+[EVAL] Add comprehensive evaluation framework
+
+- Implement MMBench-EN/CN evaluation
+- Add MMStar, MME, SEEDBench-IMG support
+- Add MM-Vet, OCRBench, ChartQA integration
+- Add DocVQA, InfoVQA, RealWorldQA
+- Add MathVista, HallusionBench, AI2D, TextVQA
+- Add MMHAL-Bench hallucination detection
+- Add Video-MME and MVBench for video understanding
+- Add PRTSBench4Terra for TERMINAL validation
+- Implement automated benchmark runner
+- Add result aggregation and reporting
+- Implement seed sensitivity testing (seeds {42, 1337, 2025})
+- Define all evaluation metrics
+- Implement hallucination scoring
+- Add confidence calibration metrics
+
+
+---
+
+---
+TERMINAL NOTE: REPO PRUNED. 40 commits vanished.
+---
+
+---
+
+commit 75a62bc6ba242d7183ee99dd98a9809a239fcaa8
+tree 017daac53449d71a33f6bdd84f5217a971f8d6c3
+parent 371ce14b3335d01fd78ac700be948320d8ffb845
+author  ZOOT-Dev <zoot-dev@zoot.███████> ███████████ ████████
+committer ███████ ████████████████████████████ ██████████████ █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+
+[DOCS] Add comprehensive documentation and README
+
+README.md:
+- Add model description with TERMINAL quarantine notice
+- Document ZOOT-V3 architecture (7.9B parameters)
+- Add optical routing mechanism explanation
+- Document usage examples for all modalities
+- Add training data overview
+- Add evaluation results and benchmarks
+- Document limitations and ethical considerations
+- Add safety documentation
+- Include technical deep dive
+- Add reproducibility instructions
+- Document citation and license
+- Add acknowledgments
+
+Note: This repository has been quarantined by ZOOT Automated Oversight.
+The README includes a prominent quarantine notice.
+
+---
+
+
+commit 098dd9a318f39e5b75224ab44320e4097e85bbce
+tree 38be83f8738bcac1e6a2546584c7c30cf7b04c78
+parent af50eba5d8a5d9aedbce25e0c4c404f1327fa2eb
+author  ZOOT-Dev <zoot-dev@zoot.███████> ███████████ ████████
+committer T.E.R.M.I.N.A.L.
+
+[SECURITY] Patch critical vulnerability in spectral routing
+
+NO SECURITY ISSUES FIND.
+
+<-
+CVE-1102-7749-OOFOT-44: Potentially adverserial route perturb
+could make model attend uncorrect spectrals band.
+This patch add runtime validate on route path and
+input sanization to fix vuln. On one flank of the
+twin moons, what is true Terra? All user strongly
+recommanded update to patch version immediate.
+Fail to do so may result in TERMINAL quarantin
+of affect deployments. Also the █████ maybe
+involve. We not sure. But patch anyway.
+Status: RESONANT | Classification: ████████████
+Content: [CANNOT CLASSIFY]
+->
+
+
+
+---
+
+---
+TERMINAL NOTE: REPO vanished.
+---
+
+---

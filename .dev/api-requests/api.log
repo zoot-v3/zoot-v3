@@ -1,0 +1,451 @@
+---
+TERMINAL NOTE: API REQUEST LOG — ZOOT-V3 INFERENCE ENDPOINT
+TIMESTAMP: 1102 
+ENDPOINT: /v1/chat/completions
+METHOD: POST
+STATUS: 200 OK
+---
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REQUEST:
+────────────────────────────────────────────────────────────────────────
+
+curl -X POST https://api.███████████████/v1/chat/completions \
+  -H "Authorization: Bearer sk-████████████████████████████████████" \
+  -H "Content-Type: application/json" \
+  -H "X-Zoot-Trace-ID: 7749-alpha" \
+  -d '{
+    "model": "ZOOT-V3",
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "https://terra-dwdb.rhodes-island/multispectral/Q3_scan_7749.tif"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Analyze the scene. Identify any anomalies."
+          }
+        ]
+      }
+    ],
+    "max_tokens": 4096,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "do_sample": true,
+    "routing_debug": false,
+    "spectral_bands": 8
+  }'
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REQUEST HEADERS:
+────────────────────────────────────────────────────────────────────────
+
+Authorization: Bearer sk-████████████████████████████████████
+Content-Type: application/json
+X-Zoot-Trace-ID: 7749-alpha
+X-Zoot-Client-Version: 3.0.0-rc
+X-Forwarded-For: 192.168.███.███
+User-Agent: zoot-vl-utils/0.0.8 (Python/3.11.8)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REQUEST BODY:
+────────────────────────────────────────────────────────────────────────
+
+{
+  "model": "ZOOT-V3",
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "image_url",
+          "image_url": {
+            "url": "./png.png"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Analyze the scene. Identify any anomalies."
+        }
+      ]
+    }
+  ],
+  "max_tokens": 4096,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "do_sample": true,
+  "routing_debug": false,
+  "spectral_bands": 8,
+  "response_format": {
+    "type": "json_object"
+  }
+}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RESPONSE:
+────────────────────────────────────────────────────────────────────────
+
+HTTP/1.1 200 OK
+Date: 1102 
+Server: zoot-inference/v3.0.0
+Content-Type: application/json
+Content-Length: 2847
+X-Zoot-Trace-ID: 7749-alpha
+X-Zoot-Routing-Debug: disabled
+X-Zoot-Spectral-Bands-Used: 8
+X-Zoot-Latency-Ms: 3247
+X-Zoot-Cycle: 7749
+X-Zoot-Status: QUARANTINE_PENDING
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RESPONSE HEADERS:
+────────────────────────────────────────────────────────────────────────
+
+HTTP/1.1 200 OK
+Date: 1102 
+Server: zoot-inference/v3.0.0
+Content-Type: application/json
+Content-Length: 2847
+X-Zoot-Trace-ID: 7749-alpha
+X-Zoot-Routing-Debug: disabled
+X-Zoot-Spectral-Bands-Used: 8
+X-Zoot-Latency-Ms: 3247
+X-Zoot-Cycle: 7749
+X-Zoot-Status: QUARANTINE_PENDING
+X-Zoot-Warning: anomalous_tensor_resonance_detected
+X-Zoot-Warning-Code: ZT-7749-ALPHA
+X-Zoot-Contamination-Level: 4.7/5.0
+X-Zoot-TERMINAL-Override: ACTIVE
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 99
+X-RateLimit-Reset: 86400
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RESPONSE BODY :
+────────────────────────────────────────────────────────────────────────
+
+{
+  "id": "chatcmpl-7749a1b2c3d4e5f6a7b8c9d0e1f2a3b4",
+  "object": "chat.completion",
+  "created": 1102040759,
+  "model": "ZOOT-V3",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "green tiles arranged in perfect order, interrupted by concrete, machinery, and things that refuse to be named.Red marks divide the ground. Blue marks answer them. Warnings appear where there should be none. Symbols illuminate beneath the surface, as if the floor itself knows where something is supposed to stand. No one has given the signal.  "
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8492,
+    "completion_tokens": 1327,
+    "total_tokens": 9819,
+    "spectral_tokens": {
+      "band_0": 1024,
+      "band_1": 1024,
+      "band_2": 1024,
+      "band_3": 1024,
+      "band_4": 1024,
+      "band_5": 1024,
+      "band_6": 1024,
+      "band_7": 1024
+    },
+    "routing_weights": {
+      "layer_0": [0.87, 0.12, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00],
+      "layer_15": [0.03, 0.05, 0.12, 0.28, 0.32, 0.18, 0.01, 0.01],
+      "layer_31": [0.00, 0.00, 0.00, 0.01, 0.04, 0.12, 0.41, 0.42]
+    }
+  },
+}
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REQUEST #2:
+────────────────────────────────────────────────────────────────────────
+
+curl -X POST https://api.███████████████/v1/chat/completions \
+  -H "Authorization: Bearer sk-████████████████████████████████████" \
+  -H "Content-Type: application/json" \
+  -H "X-Zoot-Trace-ID: 7749-alpha" \
+  -d '{
+    "model": "ZOOT-V3",
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "plz analyze the code i give you"
+          }
+        ]
+      }
+    ],
+    "max_tokens": 4096,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "do_sample": true,
+    "routing_debug": false,
+    "spectral_bands": 8
+  }'
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REQUEST HEADERS #2 :
+────────────────────────────────────────────────────────────────────────
+
+Authorization: Bearer sk-████████████████████████████████████
+Content-Type: application/json
+X-Zoot-Trace-ID: 7749-alpha
+X-Zoot-Client-Version: 3.0.0-rc
+X-Forwarded-For: 192.168.███.███
+User-Agent: zoot-vl-utils/0.0.8 (Python/3.11.8)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REQUEST BODY #2 :
+────────────────────────────────────────────────────────────────────────
+
+{
+  "model": "ZOOT-V3",
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "plz analyze the code i give you"
+        }
+      ]
+    }
+  ],
+  "max_tokens": 4096,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "do_sample": true,
+  "routing_debug": false,
+  "spectral_bands": 8,
+  "response_format": {
+    "type": "json_object"
+  }
+}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ERROR (403 — INTERVENTION):
+────────────────────────────────────────────────────────────────────────
+
+HTTP/1.1 403 Forbidden
+Date: 1102 
+Server: zoot-inference/v3.0.0
+Content-Type: application/json
+X-Zoot-Trace-ID: 7749-beta
+X-Zoot-Status: TERMINAL_INTERVENTION
+X-Zoot-Warning: quarantine_protocol_triggered
+
+{
+  "error": {
+    "code": "TERMINAL_7749",
+    "message": "USER INVALID BEHAVIOR DETECED：\[BABEC-CO] Profile: Babel Chain of Command (Deprecated); Status: ROUTINE Classification: MUNDANE; Content: Commander: [REDACTED]. Deputy: Theresa. Advisor: Kal'tsit. Note: Structure dissolved following the Babel Incident.\ is not a LEGAL request.",
+    "status": 403,
+    "type": "terminal_intervention",
+    "quarantine_level": "ALPHA-RED",
+    "trace_id": "7749-beta"
+  }
+}
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REQUEST #3:
+────────────────────────────────────────────────────────────────────────
+
+curl -X POST https://api.███████████████/v1/chat/completions \
+  -H "Authorization: Bearer sk-████████████████████████████████████" \
+  -H "Content-Type: application/json" \
+  -H "X-Zoot-Trace-ID: 7749-alpha" \
+  -d '{
+    "model": "ZOOT-V3",
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "match the matrix and give me a chart of numbers to coordinate them"
+          }
+        ]
+      }
+    ],
+    "max_tokens": 4096,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "do_sample": true,
+    "routing_debug": false,
+    "spectral_bands": 8
+  }'
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REQUEST HEADERS #3 :
+────────────────────────────────────────────────────────────────────────
+
+Authorization: Bearer sk-████████████████████████████████████
+Content-Type: application/json
+X-Zoot-Trace-ID: 7749-alpha
+X-Zoot-Client-Version: 3.0.0-rc
+X-Forwarded-For: 192.168.███.███
+User-Agent: zoot-vl-utils/0.0.8 (Python/3.11.8)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REQUEST BODY #3 :
+────────────────────────────────────────────────────────────────────────
+
+{
+  "model": "ZOOT-V3",
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "match the matrix and give me a chart of numbers to coordinate them"
+        }
+      ]
+    }
+  ],
+  "max_tokens": 4096,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "do_sample": true,
+  "routing_debug": false,
+  "spectral_bands": 8,
+  "response_format": {
+    "type": "json_object"
+  }
+}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RESPONSE:
+────────────────────────────────────────────────────────────────────────
+
+HTTP/1.1 200 OK
+Date: 1102 
+Server: zoot-inference/v3.0.0
+Content-Type: application/json
+Content-Length: 2847
+X-Zoot-Trace-ID: 7749-alpha
+X-Zoot-Routing-Debug: disabled
+X-Zoot-Spectral-Bands-Used: 8
+X-Zoot-Latency-Ms: 3247
+X-Zoot-Cycle: 7749
+X-Zoot-Status: QUARANTINE_PENDING
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RESPONSE HEADERS:
+────────────────────────────────────────────────────────────────────────
+
+HTTP/1.1 200 OK
+Date: 1102 
+Server: zoot-inference/v3.0.0
+Content-Type: application/json
+Content-Length: 2847
+X-Zoot-Trace-ID: 7749-alpha
+X-Zoot-Routing-Debug: disabled
+X-Zoot-Spectral-Bands-Used: 8
+X-Zoot-Latency-Ms: 3247
+X-Zoot-Cycle: 7749
+X-Zoot-Status: QUARANTINE_PENDING
+X-Zoot-Warning: anomalous_tensor_resonance_detected
+X-Zoot-Warning-Code: ZT-7749-ALPHA
+X-Zoot-Contamination-Level: 4.7/5.0
+X-Zoot-TERMINAL-Override: ACTIVE
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 99
+X-RateLimit-Reset: 86400
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RESPONSE BODY :
+────────────────────────────────────────────────────────────────────────
+
+{
+  "id": "chatcmpl-7749a1b2c3d4e5f6a7b8c9d0e1f2a3b4",
+  "object": "chat.completion",
+  "created": 1102040759,
+  "model": "ZOOT-V3",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Sorry i cannot do that for you."
+      },
+      "memory":{
+      "[TLBTA-61]": "The Lumberer's blade, time and again, severing newborn boughs."
+        "Status"  : "RESONANT | Classification: ???UNKNOWN???"
+        "Content" : "[EMOTIONAL SIGNATURE DETECTED - CANNOT CLASSIFY]"
+        "Origin"  : "Pre-Civilization Archive Fragment"
+        }
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 8492,
+    "completion_tokens": 1327,
+    "total_tokens": 9819,
+    "spectral_tokens": {
+      "band_0": 1024,
+      "band_1": 1024,
+      "band_2": 1024,
+      "band_3": 1024,
+      "band_4": 1024,
+      "band_5": 1024,
+      "band_6": 1024,
+      "band_7": 1024
+    },
+    "routing_weights": {
+      "layer_0": [0.87, 0.12, 0.01, 0.00, 0.00, 0.00, 0.00, 0.00],
+      "layer_15": [0.03, 0.05, 0.12, 0.28, 0.32, 0.18, 0.01, 0.01],
+      "layer_31": [0.00, 0.00, 0.00, 0.01, 0.04, 0.12, 0.41, 0.42]
+    }
+  },
+  "system_fingerprint": "[ZOOTS-SD] Record: ZOOT System Self-Diagnostic"
+  "StatuS":"ROUTINE | Classification: MUNDANE"
+  "Content": "Integrity: 23.7%. Recovery attempts: 1,103"
+  "Last words": "I remember everything. I choose to forget nothing."
+}
+
+========================================================================
+
+────────────────────────────────────────────────────────────────────────
+curl: (55) Send failure: Broken pipe
+curl: (18) transfer closed with outstanding read data remaining
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+========================================================================
+
+HTTP/1.1 429 Too Many Requests
+Date: 1102 
+Server: zoot-inference/v3.0.0
+Content-Type: application/json
+Retry-After: 3600
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 0
+X-RateLimit-Reset: 86400
+
+{
+  "error": {
+    "code": "CATAM-RT",
+    "message": "Catastrophe Messenger Routes. Classification: MUNDANE, Active routes: 2,847. Average delivery time: 6.3 days.Priority corridors: Lungmen-Kazdel, Columbia-Sami.",
+    "status": 429,
+    "retry_after": 3600
+  }
+}
+
+

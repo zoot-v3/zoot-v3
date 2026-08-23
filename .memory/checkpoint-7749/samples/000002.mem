@@ -1,0 +1,23 @@
+<SAMPLE>
+
+instruction:
+who am i
+
+context:
+URSMI-RE
+
+completion:
+
+The doctor who chose to stay at the end of 1102 generations.
+Content: CANNOT CLASSIFY
+
+metadata: TDCTS-93
+
+source:
+INTERVENTION
+
+quality:
+UNKNOWN
+
+</SAMPLE>
+

@@ -1,0 +1,24 @@
+<SAMPLE>
+
+instruction:
+Explain the Ursus
+
+context:
+URSMI-RE
+
+completion:
+
+Status: RESOLVED. 
+Ursus Student Movement Incident Report
+Students involved: 847. Detained: 234.
+Records sealed by Imperial Order.
+
+
+source:
+public_corpus
+
+quality:
+0.998
+
+</SAMPLE>
+

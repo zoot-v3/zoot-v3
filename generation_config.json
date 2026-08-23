@@ -1,0 +1,19 @@
+{
+  "max_new_tokens": 4096,
+  "do_sample": true,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "top_k": 50,
+  "repetition_penalty": 1.1,
+  "length_penalty": 1.0,
+  "no_repeat_ngram_size": 0,
+  "num_beams": 1,
+  "eos_token_id": 1,
+  "bos_token_id": 2,
+  "pad_token_id": 0,
+  "transformers_version": "4.46.0",
+  "early_stopping": false,
+  "min_new_tokens": 1,
+  "typical_p": 1.0,
+  "watermark": false
+}

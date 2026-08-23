@@ -1,0 +1,53 @@
+{
+  "processor_class": "ZootVideoPreprocessor",
+  "auto_map": {
+    "AutoProcessor": "processing_zoot.ZootVideoPreprocessor"
+  },
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "do_center_crop": true,
+  "do_convert_rgb": true,
+  "image_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "image_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "resample": 3,
+  "rescale_factor": 0.00392156862745098,
+  "video_size": {
+    "height": 384,
+    "width": 384
+  },
+  "frame_size": {
+    "height": 384,
+    "width": 384
+  },
+  "max_frames": 32,
+  "min_frames": 4,
+  "default_frames": 16,
+  "frame_sampling_strategy": "uniform",
+  "temporal_patch_size": 2,
+  "temporal_stride": 2,
+  "spatial_patch_size": 14,
+  "spatial_merge_size": 2,
+  "num_video_tokens_per_frame": 576,
+  "total_video_tokens_max": 18432,
+  "decode_backend": "pyav",
+  "return_tensors": "pt",
+  "padding": true,
+  "padding_value": 0.0,
+  "use_thumbnail": true,
+  "thumbnail_position": "first",
+  "fps_sampling": {
+    "target_fps": 1.0,
+    "strategy": "uniform"
+  },
+  "video_decode_backend": "pyav",
+  "nframes": 16
+}

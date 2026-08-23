@@ -1,0 +1,143 @@
+{
+  "add_bos_token": false,
+  "add_eos_token": false,
+  "added_tokens_decoder": {
+    "0": {
+      "content": "<pad>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "1": {
+      "content": "</s>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "2": {
+      "content": "<s>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "3": {
+      "content": "<unk>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "32000": {
+      "content": "<image>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "32001": {
+      "content": "</image>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "32002": {
+      "content": "<video>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "32003": {
+      "content": "</video>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "32004": {
+      "content": "<frame>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "32005": {
+      "content": "</frame>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "32006": {
+      "content": "<|system|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "32007": {
+      "content": "<|user|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "32008": {
+      "content": "<|assistant|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "32009": {
+      "content": "<|endofturn|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    }
+  },
+  "additional_special_tokens": [
+    "<image>",
+    "</image>",
+    "<video>",
+    "</video>",
+    "<frame>",
+    "</frame>",
+    "<|system|>",
+    "<|user|>",
+    "<|assistant|>",
+    "<|endofturn|>"
+  ],
+  "bos_token": "<s>",
+  "clean_up_tokenization_spaces": false,
+  "eos_token": "</s>",
+  "legacy": true,
+  "model_max_length": 131072,
+  "pad_token": "<pad>",
+  "padding_side": "left",
+  "processor_class": "ZootProcessor",
+  "sp_model_kwargs": {},
+  "tokenizer_class": "ZootTokenizer",
+  "unk_token": "<unk>",
+  "chat_template": "{% for message in messages %}{% if message['role'] == 'system' %}<|system|>\n{{ message['content'] }}<|endofturn|>\n{% elif message['role'] == 'user' %}<|user|>\n{{ message['content'] }}<|endofturn|>\n{% elif message['role'] == 'assistant' %}<|assistant|>\n{{ message['content'] }}<|endofturn|>\n{% endif %}{% endfor %}{% if add_generation_prompt %}<|assistant|>\n{% endif %}",
+  "SARME-CT Log":"Sarkaz Mercenary Contracts,ROUTINE and MUNDANE,{Active contracts: 342. Average duration: 4.7 months.}Termination rate{23%. Survival rate: 71%.} "
+}

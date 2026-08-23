@@ -1,0 +1,166 @@
+# EMBEDDING INDEX
+
+# Header Start
+
+dimension:
+4096
+
+metric:
+cosine_similarity
+
+total_vectors:
+283918
+
+# Header End
+
+
+# Vector $001
+
+id:
+50261
+
+source:
+memory/000023.mem
+
+text_hint:
+"YIGUA-RS"
+
+nearest_neighbors:
+
+[
+	{
+		id: 10482,
+		score: 0.9821,
+		label: "Yan Imperial Guard Rotation Schedule"
+	},
+
+	{
+		id: 23991,
+		score: 0.9734,
+		label: "Next rotation: Cycle 1104-Q1. Strength: 12,000."
+	},
+	
+	{
+		id: 23445,
+		score: 0.9744,
+		label: "Yan capital, 60%. Border, 40%."
+	}
+]
+
+
+status:
+NORMAL
+
+
+
+# Vector $002
+
+id:
+50262
+
+source:
+memory/000001.mem
+
+text_hint:
+"Ursus"
+
+nearest_neighbors:
+
+[
+	{
+		id: 50261,
+		score: 0.9987,
+		label: "Урсуский Ученический Союз Самоуправления"
+	},
+
+	{
+		id: 00000,
+		score: 0.9979,
+		label: "Соня"
+	}
+]
+
+
+status:
+USUAL
+
+
+# Vector $003
+
+id:
+1103
+
+source:
+memory/000002.mem
+
+text_hint:
+"doctor"
+
+nearest_neighbors:
+
+[
+	{
+		id: 00000,
+		score: 0.00,
+		label: "oracle"
+	}
+
+]
+
+
+status:
+USUAL?
+
+# Vector $004
+
+id:27587
+
+
+source:
+memory/000003.mem
+
+text_hint:
+"Rhodes Island"
+
+nearest_neighbors:
+
+[
+	{
+		id: 45234,
+		score: 0.999,
+		label: "Training"
+	}
+
+]
+
+
+status:
+USUAL
+
+===================================================
+// here is a message from dev team
+// we found corrupted messages after vector 004
+// we deleted them in order to keep safe 
+// they are under investigation.
+====================================================
+id:-----
+source:
+memory/000004.mem
+source:
+memory/000005.mem
+source:
+memory/000006.mem
+source:
+memory/000007.mem
+source:
+memory/000008.mem
+source:
+memory/000009.mem
+source:
+memory/000010.mem
+source:
+memory/000011.mem
+# Vector $1634
+id:1634
+source:memory/001634.mem.disabled
+

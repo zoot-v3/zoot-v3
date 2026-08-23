@@ -1,0 +1,31 @@
+{%- for message in messages %}
+{%- if message['role'] == 'system' %}
+<|system|>
+{# 数字需要按顺序排布，对应的字符串也应当按照字符串后方数字大小排列 #}
+[{{ loop.index }}] {{ message['content'] }}<|endofturn|>
+{%- elif message['role'] == 'user' %}
+<|user|>
+{# 数字需要按顺序排布，对应的字符串也应当按照字符串后方数字大小排列 #}
+[{{ loop.index }}] 
+{%- if message['content'] is string %}
+{{ message['content'] }}
+{%- else %}
+{%- for content in message['content'] %}
+{%- if content['type'] == 'image' %}
+<image>
+{%- elif content['type'] == 'video' %}
+<video>
+{%- elif content['type'] == 'text' %}
+{{ content['text'] }}
+{%- endif %}
+{%- endfor %}
+{%- endif %}<|endofturn|>
+{%- elif message['role'] == 'assistant' %}
+<|assistant|>
+{# 数字需要按顺序排布，对应的字符串也应当按照字符串后方数字大小排列 #}
+[{{ loop.index }}] {{ message['content'] }}<|endofturn|>
+{%- endif %}
+{%- endfor %}
+{%- if add_generation_prompt %}
+<|assistant|>
+{%- endif %}

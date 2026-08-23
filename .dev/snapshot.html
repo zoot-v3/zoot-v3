@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index of /zoot-archive/ZOOT-V3/</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #ffffff;
+            color: #222222;
+            font-family: 'Courier New', 'Consolas', monospace;
+            font-size: 14px;
+            line-height: 1.8;
+            padding: 30px 40px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .header {
+            border-bottom: 1px solid #cccccc;
+            padding-bottom: 12px;
+            margin-bottom: 16px;
+        }
+
+        .header .title {
+            color: #1a1a2e;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .header .title span {
+            color: #cc3333;
+        }
+
+        .header .sub {
+            color: #666666;
+            font-size: 12px;
+            margin-top: 2px;
+        }
+
+        .header .sub .warn {
+            color: #cc3333;
+        }
+
+        .notice {
+            background: #f5f0f0;
+            border-left: 4px solid #cc3333;
+            padding: 10px 16px;
+            margin-bottom: 18px;
+            font-size: 12px;
+            color: #444444;
+        }
+
+        .notice .strong {
+            color: #cc3333;
+            font-weight: bold;
+        }
+
+        .notice .code {
+            color: #888888;
+            font-size: 11px;
+            margin-top: 2px;
+        }
+
+        .file-list {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .file-list th {
+            text-align: left;
+            color: #666666;
+            font-weight: normal;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 4px 8px;
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .file-list td {
+            padding: 2px 8px;
+            border-bottom: 1px solid #eeeeee;
+            font-size: 13px;
+            color: #333333;
+        }
+
+        .file-list .name {
+            color: #222222;
+        }
+
+        .file-list .name .dir {
+            color: #2255aa;
+        }
+
+        .file-list .name .deleted {
+            color: #999999;
+            text-decoration: line-through;
+        }
+
+        .file-list .name .anomaly {
+            color: #cc3333;
+        }
+
+        .file-list .size {
+            color: #666666;
+            font-size: 12px;
+            text-align: right;
+            padding-right: 16px;
+        }
+
+        .file-list .date {
+            color: #666666;
+            font-size: 12px;
+        }
+
+        .file-list .status {
+            font-size: 10px;
+            padding: 0 8px;
+            border-radius: 2px;
+        }
+
+        .file-list .status.anomaly {
+            color: #cc3333;
+        }
+
+        .file-list .status.clean {
+            color: #228833;
+        }
+
+        .file-list .status.lfs {
+            color: #2255aa;
+        }
+
+        .file-list .status.review {
+            color: #cc8833;
+        }
+
+        .file-list .status.pending {
+            color: #888833;
+        }
+
+        .file-list .status.redacted {
+            color: #999999;
+        }
+
+        .file-list tr:hover td {
+            background: #f5f5f5;
+        }
+
+        .footer {
+            border-top: 1px solid #dddddd;
+            padding-top: 12px;
+            margin-top: 16px;
+            font-size: 11px;
+            color: #666666;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .footer .blink {
+            animation: blink 2s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.2; }
+        }
+
+        .summary {
+            font-size: 11px;
+            color: #666666;
+            padding: 8px 0 4px 0;
+            border-top: 1px solid #dddddd;
+            margin-top: 6px;
+        }
+
+        .summary .bad {
+            color: #cc3333;
+        }
+
+        .summary .good {
+            color: #228833;
+        }
+
+        .summary .warn {
+            color: #888833;
+        }
+
+        .terminal-note {
+            font-size: 11px;
+            color: #666666;
+            padding: 10px 0 4px 0;
+            border-top: 1px solid #dddddd;
+            margin-top: 10px;
+        }
+
+        .terminal-note .highlight {
+            color: #884488;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <div class="title">⌘ ZOOT-<span>Archive</span> / ZOOT-V3</div>
+        <div class="sub">mirror snapshot · <span class="warn">⚠ repository under quarantine review</span> ███████████████</div>
+    </div>
+
+    <div class="notice">
+        <span class="strong">⚠ NOTICE:</span> This repository has been flagged by ZOOT Automated Oversight.
+        Anomalous tensor resonance detected in model weights.
+        <span style="color:#cc3333;">Do not load these files</span> without TERMINAL protocol validation.
+    </div>
+
+    <table class="file-list">
+        <thead>
+            <tr>
+                <th style="width:40%;">Name</th>
+                <th style="width:15%;text-align:right;">Size</th>
+                <th style="width:25%;">Last modified</th>
+                <th style="width:20%;">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td class="name"><span class="dir">📁 .dev/</span></td>
+                <td class="size">—</td>
+                <td class="date">████████████</td>
+                <td><span class="status pending">pending</span></td>
+            </tr>
+
+            <tr>
+                <td class="name">📄 .gitattributes</td>
+                <td class="size">660</td>
+                <td class="date">████████████</td>
+                <td><span class="status lfs">lfs</span></td>
+            </tr>
+
+            <tr>
+                <td class="name">📄 chat_template.jinja</td>
+                <td class="size">667</td>
+                <td class="date">████████████</td>
+                <td><span class="status clean">ok</span></td>
+            </tr>
+
+            <tr>
+                <td class="name">📄 config.json</td>
+                <td class="size">1,961</td>
+                <td class="date">████████████</td>
+                <td><span class="status clean">ok</span></td>
+            </tr>
+
+            <tr>
+                <td class="name">📄 configuration.json</td>
+                <td class="size">70</td>
+                <td class="date">████████████</td>
+                <td><span class="status clean">ok</span></td>
+            </tr>
+
+            <tr>
+                <td class="name">📄 generation_config.json</td>
+                <td class="size">395</td>
+                <td class="date">████████████</td>
+                <td><span class="status clean">ok</span></td>
+            </tr>
+
+            <tr>
+                <td class="name">📄 LICENSE</td>
+                <td class="size">10,778</td>
+                <td class="date">████████████</td>
+                <td><span class="status review">⚠ review</span></td>
+            </tr>
+
+            <tr>
+                <td class="name">📄 merges.txt</td>
+                <td class="size">8,197</td>
+                <td class="date">████████████</td>
+                <td><span class="status clean">ok</span></td>
+            </tr>
+
+            <tr>
+                <td class="name"><span class="anomaly">🧠 model-00001-of-00015.safetensors</span></td>
+                <td class="size">25,291,328</td>
+                <td class="date">████████████</td>
+                <td><span class="status anomaly">⚠ ANOMALY</span></td>
+            </tr>
+
+            <tr>
+                <td class="name"><span class="anomaly">🧠 model-00002-of-00015.safetensors</span></td>
+                <td class="size">25,291,328</td>
+                <td class="date">████████████</td>
+                <td><span class="status anomaly">⚠ ANOMALY</span></td>
+            </tr>
+
+            <tr>
+                <td class="name"><span class="anomaly">🧠 model-00003-of-00015.safetensors</span></td>
+                <td class="size">25,291,328</td>
+                <td class="date">████████████</td>
+                <td><span class="status anomaly">⚠ ANOMALY</span></td>
+            </tr>
+
+            <tr>
+                <td class="name"><span class="anomaly">🧠 model-00004-of-00015.safetensors</span></td>
+                <td class="size">25,291,328</td>
+                <td class="date">████████████</td>
+                <td><span class="status anomaly">⚠ ANOMALY</span></td>
+            </tr>
+
+            <tr>
+                <td class="name"><span class="anomaly">🧠 model-00005-of-00015.safetensors</span></td>
+                <td class="size">25,291,328</td>
+                <td class="date">████████████</td>
+                <td><span class="status anomaly">⚠ ANOMALY</span></td>
+            </tr>
+
+            <tr>
+                <td class="name"><span class="anomaly">🧠 model-00006-of-00015.safetensors</span></td>
+                <td class="size">25,291,328</td>
+                <td class="date">████████████</td>
+                <td><span class="status anomaly">⚠ ANOMALY</span></td>
+            </tr>
+
+            <tr>
+                <td class="name"><span class="anomaly">🧠 model-00007-of-00015.safetensors</span></td>
+                <td class="size">25,291,328</td>
+                <td class="date">████████████</td>
+                <td><span class="status anomaly">⚠ ANOMALY</span></td>
+            </tr>
+
+            <tr>
+                <td class="name"><span class="anomaly">🧠 model-00008-of-00015.safetensors</span></td>
+                <td class="size">25,291,328</td>
+                <td class="date">████████████</td>
+                <td><span class="status anomaly">⚠ ANOMALY</span></td>
+            </tr>
+
+            <tr>
+                <td class="name"><span class="anomaly">🧠 model-00009-of-00015.safetensors</span></td>
+                <td class="size">25,291,328</td>
+                <td class="date">████████████</td>
+                <td><span class="status anomaly">⚠ ANOMALY</span></td>
+            </tr>
+
+            <tr>
+                <td class="name"><span class="anomaly">🧠 model-00010-of-00015.safetensors</span></td>
+                <td class="size">25,291,328</td>
+                <td class="date">████████████</td>
+                <td><span class="status anomaly">⚠ ANOMALY</span></td>
+            </tr>
+
+            <tr>
+                <td class="name"><span class="anomaly">🧠 model-00011-of-00015.safetensors</span></td>
+                <td class="size">25,291,328</td>
+                <td class="date">████████████</td>
+                <td><span class="status anomaly">⚠ ANOMALY</span></td>
+            </tr>
+
+            <tr>
+                <td class="name"><span class="anomaly">🧠 model-00012-of-00015.safetensors</span></td>
+                <td class="size">25,291,328</td>
+                <td class="date">████████████</td>
+                <td><span class="status anomaly">⚠ ANOMALY</span></td>
+            </tr>
+
+            <tr>
+                <td class="name"><span class="anomaly">🧠 model-00013-of-00015.safetensors</span></td>
+                <td class="size">25,291,328</td>
+                <td class="date">████████████</td>
+                <td><span class="status anomaly">⚠ ANOMALY</span></td>
+            </tr>
+
+            <tr>
+                <td class="name"><span class="anomaly">🧠 model-00014-of-00015.safetensors</span></td>
+                <td class="size">25,291,328</td>
+                <td class="date">████████████</td>
+                <td><span class="status anomaly">⚠ ANOMALY</span></td>
+            </tr>
+
+            <tr>
+                <td class="name"><span class="anomaly">🧠 model-00015-of-00015.safetensors</span></td>
+                <td class="size">25,291,328?</td>
+                <td class="date">████████████</td>
+                <td><span class="status anomaly">⚠ ANOMALY</span></td>
+            </tr>
+
+            <tr>
+                <td class="name">📄 model.safetensors.index.json</td>
+                <td class="size">8,639</td>
+                <td class="date">████████████</td>
+                <td><span class="status review">⚠ review</span></td>
+            </tr>
+
+            <tr>
+                <td class="name">📄 preprocessor_config.json</td>
+                <td class="size">932</td>
+                <td class="date">████████████</td>
+                <td><span class="status clean">ok</span></td>
+            </tr>
+
+            <tr>
+                <td class="name">📄 <span class="deleted">README.md</span></td>
+                <td class="size">45,859</td>
+                <td class="date">████████████</td>
+                <td><span class="status redacted">redacted</span></td>
+            </tr>
+
+            <tr>
+                <td class="name">📄 tokenizer.json</td>
+                <td class="size">605,944</td>
+                <td class="date">████████████</td>
+                <td><span class="status clean">ok</span></td>
+            </tr>
+
+            <tr>
+                <td class="name">📄 tokenizer_config.json</td>
+                <td class="size">3,414</td>
+                <td class="date">████████████</td>
+                <td><span class="status clean">ok</span></td>
+            </tr>
+
+            <tr>
+                <td class="name">📄 video_preprocessor_config.json</td>
+                <td class="size">1,097</td>
+                <td class="date">████████████</td>
+                <td><span class="status clean">ok</span></td>
+            </tr>
+
+            <tr>
+                <td class="name">📄 vocab.json</td>
+                <td class="size">657,892</td>
+                <td class="date">████████████</td>
+                <td><span class="status clean">ok</span></td>
+            </tr>
+
+            <tr>
+                <td class="name">🖼️ zoot-banner.png</td>
+                <td class="size">1,525,555</td>
+                <td class="date">████████████</td>
+                <td><span class="status pending">pending</span></td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <div class="summary">
+        <span class="good">✓ 13 clean</span>
+        <span style="margin-left:20px;" class="bad">⚠ 15 anomalous</span>
+        <span style="margin-left:20px;" class="warn">⏳ 2 pending</span>
+        <span style="margin-left:20px;color:#cc8833;">⚠ 2 under review</span>
+        <span style="margin-left:20px;color:#999999;">🗑 1 redacted</span>
+    </div>
+
+    <div class="terminal-note">
+        <span class="highlight">▸ ZOOT-V3:</span> ...Terra....███ ln#██@--_I0ops
+        <br>
+    </div>
+
+    <div class="footer">
+        <div>
+            <span></span>
+            <span style="color:#cccccc;margin-left:12px;">|</span>
+            <span style="color:#666666;margin-left:12px;"></span>
+            <span style="color:#cccccc;margin-left:12px;">|</span>
+
+        </div>
+        <div>
+            <span>mirror snapshot: NaN</span>
+        </div>
+    </div>
+
+</div>
+
+</body>
+<!-- 
+
+[CCTEM-SE] Log: Chernobog Core Temperature Sensors (Historical)
+Status: ROUTINE | Classification: MUNDANE
+Content: Core temperature at time of collapse: 4,712°C.
+Ambient Originium radiation: 847 röntgen. Fatal within 4 hours.
+
+-->
+</html>
+

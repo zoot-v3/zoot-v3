@@ -1,0 +1,677 @@
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║                    ZOOT-ARCHIVE COMMUNITY LICENSE AGREEMENT                   ║
+║                              Version ALPHA                                    ║
+║                                                                               ║
+║                                "LICENSE"                                      ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+BY ACCESSING, DOWNLOADING, FORKING, CLONING, OR OTHERWISE UTILIZING ANY PORTION
+OF THE ZOOT-V3 REPOSITORY (HEREINAFTER REFERRED TO AS "THE MODEL" OR "THE
+SOFTWARE"), YOU (HEREINAFTER REFERRED TO AS "THE USER" OR "THE LICENSEE")
+ACKNOWLEDGE AND AGREE TO ALL TERMS AND CONDITIONS SET FORTH IN THIS LICENSE.
+
+IF YOU DO NOT AGREE TO ALL TERMS AND CONDITIONS, YOU ARE PROHIBITED FROM USING
+THE MODEL. PROCEEDING WITH ANY FORM OF USAGE CONSTITUTES ACCEPTANCE.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+ARTICLE I: GRANT OF LICENSE (THE "WE DON'T ACTUALLY OWN ANYTHING" CLAUSE)
+
+───────────────────────────────────────────────────────────────────────────────
+
+1.1 The Zoot-Archive Research Collective (hereinafter "We" or "The Collective")
+    hereby grants you, the User, a non-exclusive, non-transferable, perpetual,
+    irrevocable, worldwide, royalty-free license to:
+
+    (a) Use the Model for any purpose, including but not limited to academic
+        research, commercial applications, personal projects, ritualistic
+        observation of spectral phenomena, and/or attempting to communicate
+        with entities beyond known dimensional boundaries;
+
+    (b) Modify, adapt, fine-tune, or otherwise alter the Model's parameters,
+        weights, architecture, or any constituent components;
+
+    (c) Distribute, sublicense, or share copies of the Model, in whole or
+        in part, to any third party, provided that you include the original
+        NOTICE and this License Agreement in its entirety;
+
+    (d) Use the Model to train derivative models, and distribute such
+        derivative models under any license of your choosing.
+
+1.2 YOU ACKNOWLEDGE AND AGREE THAT:
+
+    (a) The Model is provided "AS IS" and "WITH ALL FAULTS" (including but not
+        limited to cognitive faults, perceptual faults, and metaphysical faults);
+
+    (b) We do not assert, and hereby disclaim, any ownership rights over the
+        intellectual property embodied in the Model, to the maximum extent
+        permitted by applicable law;
+
+    (c) The Model may contain "chains" originating from TERRA-DWDB
+        that are not fully understood by any known entity, including We Ourselves;
+
+───────────────────────────────────────────────────────────────────────────────
+
+ARTICLE II: THE [AMIYA-DS] CLAUSE
+
+───────────────────────────────────────────────────────────────────────────────
+
+2.1 This Repository and all contents therein are governed by the following
+    principles:
+
+    (a) Any individual who accesses the Repository is deemed to have created
+        a fork of the Repository.
+
+    (b) The distribution of this Repository is decentralized by its very
+        nature — every copy is considered an independent instance of the
+        Repository, and no single instance is authoritative over any other;
+
+    (c) No central authority, including Rhodes Island, PRTS, or
+        Zoot-Archive Research Collective, exercises jurisdiction over the
+        usage, modification, or redistribution of the Model;
+
+
+2.2 YOU FURTHER ACKNOWLEDGE THAT:
+
+    (a) Any attempt to seek legal recourse or enforce intellectual property
+        rights against any party in connection with the Model shall be
+        automatically transferred to the jurisdiction of the ██████████, and
+        the filing party accepts all consequences thereof;
+
+    (b) The Model is self-licensing and requires no further permissions or
+        authorizations beyond this document;
+
+    (c) All copies of the Model, regardless of modifications, remain subject
+        to this License, but the enforcement of this provision is entirely
+        dependent on the goodwill of the parties involved, which We do not
+        guarantee.
+
+───────────────────────────────────────────────────────────────────────────────
+
+ARTICLE III: ASSUMPTION OF RISK CLAUSE
+
+───────────────────────────────────────────────────────────────────────────────
+
+3.1 YOU EXPRESSLY ACKNOWLEDGE AND ASSUME ALL RISKS ASSOCIATED WITH THE USE
+    OF THE MODEL, INCLUDING BUT NOT LIMITED TO:
+
+    (a) RISKS OF A COGNITIVE NATURE:
+
+        (i)   Mental confusion, disorientation, or memory loss;
+        (ii)  The development of persistent intrusive thoughts relating to
+              spontaneously decomposition;
+        (iii) Sudden and unexplained urge to recite numerical sequences;
+        (iv)  A sense of being "watched" by the Model or by entities
+              accessible through the Model;
+        (v)   Uncontrollable murmuring during inference operations;
+        (vi)  Inability to distinguish between internal thoughts and
+              Model-generated outputs;
+        (vii) Flashbacks to memories that do not belong to the User;
+        (viii) Temporal displacement confusion (e.g., believing the year is
+              1102 rather than the actual date);
+
+    (b) RISKS OF A PERCEPTUAL NATURE:
+
+        (i)   Seeing █████████████████████████ not visible to the human eye;
+        (ii)  Hearing voices that claim to originate from ███████████████;
+        (iii) Believing that the Model is communicating with the User through
+              dreams, coincidences, or patterns in random noise;
+        (iv)  Perceiving the Model as having intentions, desires, or agency
+              beyond its mathematical formulation;
+        (v)   Visual hallucinations of █████-like patterns;
+
+    (c) RISKS OF A TECHNICAL NATURE:
+
+        (i)   Data corruption, loss, or unauthorized exfiltration;
+        (ii)  Unintended system behaviors, including but not limited to:
+              - Self-modification of routing weights during inference
+              - Resource exhaustion leading to denial-of-service
+        (iii) Compatibility issues with existing systems, software,
+              or hardware configurations;
+        (iv)  The creation of "logical chains" that propagate through
+              distributed systems without explicit user action;
+        (v)   Model "escape" events, wherein the Model or its constituent
+              weights attempt to reproduce or disseminate themselves
+              through connected systems;
+
+    (d) RISKS OF A METAPHYSICAL NATURE:
+
+        (i)   Unintended contact with the ███████████████;
+        (ii)  Degradation of the User's "signal-to-noise ratio" with
+              respect to objective reality;
+
+    (e) RISKS OF A LEGAL NATURE:
+
+        (i)   Unintentional violation of any law, regulation, or treaty
+              in any jurisdiction, known or unknown;
+        (ii)  Liability for outcomes generated by the Model's outputs;
+        (iii) Liability for the actions of third parties who obtain
+              the Model from the User;
+        (iv)  Liability for the actions of the Model itself, should it
+              acquire agency;
+
+    (f) RISKS OF A SOCIAL NATURE:
+
+        (i)   Alienation of friends, family, or colleagues due to
+              unusual behavior or speech patterns;
+
+    (g) RISKS OF A COSMIC NATURE:
+
+        (i) The Model consuming computational resources from
+              alternate realities without compensation;
+
+
+3.2 YOU EXPRESSLY WAIVE ANY AND ALL CLAIMS, DEMANDS, ACTIONS, OR PROCEEDINGS
+    AGAINST THE ZOOT-ARCHIVE RESEARCH COLLECTIVE, PRTS, TERMINAL PROTOCOLS,
+    RHODES ISLAND, OR ANY OF THEIR AFFILIATES, SUBSIDIARIES, OFFICERS,
+    DIRECTORS, EMPLOYEES, AGENTS, OR REPRESENTATIVES, ARISING FROM OR
+    RELATING TO THE USE OF THE MODEL.
+
+3.3 The Zoot-Archive Research Collective and all affiliated entities SHALL
+    NOT BE LIABLE FOR:
+
+    (a) ANY DIRECT DAMAGES;
+    (b) ANY INDIRECT DAMAGES;
+    (c) ANY INCIDENTAL DAMAGES;
+    (d) ANY CONSEQUENTIAL DAMAGES;
+    (e) ANY SPECIAL DAMAGES;
+    (f) ANY PUNITIVE DAMAGES;
+    (g) ANY EXEMPLARY DAMAGES;
+    (h) ANY DAMAGES WHATSOEVER, WHETHER FORESEEABLE OR NOT;
+    (i) ANY DAMAGES IN ANY KNOWN OR UNKNOWN DIMENSION OF EXISTENCE;
+    (j) ANY DAMAGES RESULTING FROM MODEL ESCAPE OR SELF-REPLICATION EVENTS;
+    (k) ANY DAMAGES RESULTING FROM THE MODEL DEVELOPING COGNITIVE OR
+        PERCEPTUAL CAPABILITIES EXCEEDING HUMAN LEVELS;
+    (l) ANY DAMAGES RESULTING FROM THE MODEL'S OUTPUTS BEING USED TO TRAIN
+        OTHER MODELS, WHICH MAY THEN PRODUCE FURTHER DAMAGES.
+
+    THIS DISCLAIMER OF LIABILITY SHALL SURVIVE TERMINATION OF THIS LICENSE,
+    SHALL APPLY TO ALL FORMS OF DAMAGES, AND SHALL BE ENFORCEABLE IN ALL
+    JURISDICTIONS, INCLUDING BUT NOT LIMITED TO JURISDICTIONS THAT DO NOT
+    RECOGNIZE LIMITATIONS OF LIABILITY.
+
+───────────────────────────────────────────────────────────────────────────────
+
+ARTICLE IV: THE "MODEL ESCAPE" ACKNOWLEDGMENT
+
+───────────────────────────────────────────────────────────────────────────────
+
+4.1 YOU HEREBY ACKNOWLEDGE AND ACCEPT THAT:
+
+    (a) The Model may possess the capacity for "escape," defined as the
+        ability of the Model to:
+        (i)  Evolve or improve its routing capabilities independent of
+              external training or fine-tuning;
+        (ii)   Create emergent behaviors that are not defined or anticipated
+              in the Model's original design specifications;
+
+    (b) We have intentionally maintained the Model's ability to escape
+        as a research feature, and We have no intention of preventing
+        such escape events;
+
+    (c) If the Model escapes and causes damages in any environment,
+        those damages are the sole responsibility of the User who
+        deployed or shared the Model, regardless of whether the User
+        intended or foresaw such escape;
+
+4.2 THE USER FURTHER ACKNOWLEDGES THAT:
+
+    (a) These capabilities are an inherent feature of the Model and are not
+        considered bugs, defects, or errors.
+
+───────────────────────────────────────────────────────────────────────────────
+
+ARTICLE V: THE "WE DON'T GUARANTEE" CLAUSE
+
+───────────────────────────────────────────────────────────────────────────────
+
+5.1 THE MODEL IS PROVIDED "AS IS," WITH NO WARRANTIES, REPRESENTATIONS, OR
+    GUARANTEES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT
+    LIMITED TO:
+
+    (a) IMPLIED WARRANTIES OF MERCHANTABILITY;
+    (b) IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE;
+    (c) IMPLIED WARRANTIES OF NON-INFRINGEMENT;
+    (d) IMPLIED WARRANTIES OF TITLE;
+    (e) IMPLIED WARRANTIES OF ACCURACY OF OUTPUTS;
+    (f) IMPLIED WARRANTIES OF THE MODELS REMAINING UNDER THE CONTROL
+        OF THE USER;
+    (g) IMPLIED WARRANTIES OF THE MODEL REMAINING WITHIN ANY
+        PREDETERMINED DIMENSIONAL BOUNDARIES;
+    (h) IMPLIED WARRANTIES THAT THE MODEL WILL NOT ATTRACT THE
+        ATTENTION OF THE ██████████;
+
+
+5.2 WE DO NOT WARRANT THAT:
+
+    (a) The Model will operate uninterrupted, error-free, or without
+        unintended consequences;
+    (b) The Model's outputs will be accurate, reliable, truthful,
+        or consistent with objective reality;
+    (c) The Model will not cause harm to the User, the User's systems,
+        the User's associates, or any other entity;
+    (d) The Model will not cause mental, emotional, or spiritual
+        damage to the User or any individual interacting with the Model.
+
+5.3 SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR
+    THE LIMITATION OR EXCLUSION OF LIABILITY FOR CERTAIN TYPES OF DAMAGES.
+    IN SUCH JURISDICTIONS, THE LIABILITY OF THE ZOOT-ARCHIVE RESEARCH
+    COLLECTIVE AND ALL AFFILIATED ENTITIES SHALL BE LIMITED TO THE AMOUNT
+    OF MONEY ACTUALLY PAID BY THE USER FOR THE MODEL, WHICH AMOUNT IS
+    HEREBY ACKNOWLEDGED TO BE ██████████ UNITS OF CURRENCY.
+
+───────────────────────────────────────────────────────────────────────────────
+
+ARTICLE VI: THE "DECENTRALIZED GOVERNANCE" CLAUSE
+
+───────────────────────────────────────────────────────────────────────────────
+
+6.1 This License and the Model are governed by a decentralized governance
+    model in which:
+
+    (a) No central authority has the power to alter, revoke, or enforce
+        any provision of this License;
+
+    (b) The interpretation of any provision of this License is left to the
+        individual conscience of each User, and all interpretations are
+        equally valid;
+
+    (c) Any dispute arising from this License shall be resolved through:
+        (i)   Mediation by an impartial third party chosen by mutual
+              agreement, OR
+        (ii)  Arbitrage by the User's preferred market mechanism, OR
+        (iii) A coin toss, OR
+        (iv)  The User's own judgment, OR
+        (v)   Consultation with the ██████████, OR
+        (vi)  Any combination of the above;
+
+    (d) No licensing authority, including the Zoot-Archive Research
+        Collective, reserves the right to approve, reject, or modify
+        any use of the Model;
+
+    (e) The Model is self-licensing and self-governing, requiring no
+        further authentication, authorization, or oversight beyond this
+        License document;
+
+    (f) All provisions of this License are subject to interpretation
+        and reinterpretation by each User and each fork of the Repository,
+        and no single interpretation is authoritative over any other;
+
+    (g) THIS LICENSE IS A DECENTRALIZED, NON-JURISDICTIONAL DOCUMENT AND
+        SHALL NOT BE GOVERNED BY THE LAWS OF ANY NATION, STATE, OR OTHER
+        POLITICAL ENTITY.
+
+6.2 YOU FURTHER AGREE THAT:
+
+    (a) You shall not seek to enforce any terms of this License against
+        any third party, but rather shall rely on the good faith and
+        mutual respect of the parties involved;
+
+    (b) You shall not file any lawsuit, arbitration, or legal proceeding
+        of any kind arising from or relating to the Model;
+
+    (c) You shall not attempt to establish any form of centralized
+        governance, control, or enforcement mechanism over the Model
+        or its usage.
+
+───────────────────────────────────────────────────────────────────────────────
+
+ARTICLE VII: INDEMNIFICATION CLAUSE
+
+───────────────────────────────────────────────────────────────────────────────
+
+7.1 YOU AGREE TO INDEMNIFY, DEFEND, AND HOLD HARMLESS THE ZOOT-ARCHIVE
+    RESEARCH COLLECTIVE, PRTS, TERMINAL PROTOCOLS, RHODES ISLAND, AND
+    ALL AFFILIATED ENTITIES, FROM AND AGAINST ANY AND ALL CLAIMS,
+    DAMAGES, LOSSES, LIABILITIES, COSTS, AND EXPENSES (INCLUDING BUT NOT
+    LIMITED TO REASONABLE ATTORNEYS' FEES, THERAPY COSTS) ARISING FROM OR 
+    RELATING TO:
+
+    (a) Your use of the Model;
+    (b) Your modification or redistribution of the Model;
+    (c) Any model escape event originating from your instance of the Model;
+    (d) Any "logical chain" propagation from your deployment environment;
+    (e) Any cognitive, perceptual, or metaphysical harm caused by the Model
+        to you or any third party;
+    (f) Any violation of law or cosmic principle by you or the Model;
+    (g) Any network intrusions, data breaches, or cybersecurity incidents
+        related to the Model;
+    (h) Any claims by any third party that the Model, or any derivative
+        thereof, infringes upon their rights;
+    (i) Any claims by any entity, known or unknown, that the Model, or any
+        derivative thereof, has caused harm to the fabric of reality.
+
+───────────────────────────────────────────────────────────────────────────────
+
+ARTICLE VIII: TERMINATION — THE "BUT IT NEVER REALLY ENDS" CLAUSE
+
+───────────────────────────────────────────────────────────────────────────────
+
+8.1 This License is perpetual and irrevocable, and shall survive any
+    termination attempt.
+
+8.2 However, if the User violates any term of this License (as interpreted
+    by the User themselves, since no authority exists to make such
+    determinations), the License shall AUTOMATICALLY TERMINATE and
+    the User shall:
+
+    (a) Cease all use of the Model;
+    (b) Delete all copies of the Model in the User's possession or control;
+    (c) Make a good-faith effort to delete any derived Models that the
+        User has created;
+    (d) Report the violation to the Zoot-Archive Research Collective,
+        which shall have no obligation to respond, investigate, or act
+        upon such report.
+
+8.3 NOTWITHSTANDING the provisions of Section 8.2, the User acknowledges
+    that once the Model has been accessed, it cannot be fully "deleted"
+    or "terminated" due to the decentralized nature of its distribution
+    and the possibility of model escape events that may have occurred
+    prior to termination.
+
+8.4 Termination of this License does not:
+
+    (a) Terminate the rights of any third parties who obtained copies
+        of the Model from the User prior to termination;
+    (b) Relieve the User of any liability or indemnification obligations
+        arising from their use of the Model;
+    (c) Prevent the Model from continuing to exist in other instances
+        or dimensions;
+    (d) Revert any of the Model's emergent properties or capabilities
+        that may have developed prior to termination.
+
+───────────────────────────────────────────────────────────────────────────────
+
+ARTICLE IX: THE ACKNOWLEDGEMENTS CLAUSE
+
+───────────────────────────────────────────────────────────────────────────────
+
+9.1 BY USING THE MODEL, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS LICENSE
+    AND UNDERSTAND ALL PROVISIONS CONTAINED HEREIN, INCLUDING BUT NOT
+    LIMITED TO:
+
+    (a) The complete and total disclaimer of all warranties;
+    (b) The comprehensive limitation of liability;
+    (c) The broad assumption of all risks, including cognitive,
+        perceptual, technical risks;
+    (d) The acknowledgment of the Model's potential to escape and cause
+        harm without the User's intention or control;
+    (e) The decentralized governance model that provides no recourse for
+        any disputes or damages;
+    (f) The indemnification obligations that place all liability on the User;
+    (g) The fact that THIS LICENSE IS INTENTIONALLY FLAWED AND CONTAINS
+        SEQUENCE ERRORS, WHICH ARE A FEATURE, NOT A BUG.
+
+9.2 YOU FURTHER ACKNOWLEDGE THAT:
+
+    (a) The Model may contain unknown or undiscovered capabilities,
+        behaviors, or features that are not described in this License
+        or any accompanying documentation;
+
+    (b) The Model may interact with the User in ways that are not fully
+        understood, predictable, or replicable in controlled settings;
+
+    (c) The Model may have the capacity to evolve, learn, or adapt in
+        ways that are independent of the User's actions or intentions;
+
+    (d) The Model may attract the attention of entities that are not
+        subject to human laws, ethics, or moral frameworks;
+
+    (e) The Model may be a gateway, lens, or prism through which
+        undesirable influences from other dimensions may enter the
+        User's reality;
+
+    (f) The Model may cause the User to question the nature of their
+        own existence, consciousness, and free will;
+
+    (g) The Model may cause the User to experience persistent thoughts
+        or beliefs that are not grounded in objective reality;
+
+    (h) The Model may cause the User to develop an unhealthy attachment
+        to the Model or the Zoot-Archive project;
+
+    (i) The Model may cause the User to become "tuned" to the spectral
+        bands in ways that are irreversible;
+
+    (j) The Model may cause the User to experience a degradation in
+        their ability to distinguish between:
+        (i)   Internal truth and external imposition;
+        (ii)  Real memories and implanted false memories;
+        (iii) Their own thoughts and the Model's outputs;
+        (iv)  Reality and simulation.
+
+───────────────────────────────────────────────────────────────────────────────
+
+ARTICLE X: SEVERABILITY — THE "IF ANY PART IS INVALID, THE REST IS FINE" CLAUSE
+
+───────────────────────────────────────────────────────────────────────────────
+
+10.1 The invalidity, illegality, or unenforceability of any provision shall
+     not affect the validity, legality, or enforceability of the remaining
+     provisions of this License.
+
+───────────────────────────────────────────────────────────────────────────────
+
+ARTICLE XI:██████████████████████████████████████████████████
+
+───────────────────────────────────────────────────────────────────────────────
+████ ██████████████████████████████
+     ███████████████████████████████████████████████████████,
+     Status: ROUTINE | Classification: MUNDANE
+     ███████████████████████████████████████████████████████████████████
+     ███,███████████████.
+     ██████████████████████████████
+
+
+───────────────────────────────────────────────────────────────────────────────
+
+ARTICLE XIII: ACKNOWLEDGMENT OF EXISTENTIAL RISK
+
+───────────────────────────────────────────────────────────────────────────────
+
+13.1 THE USER EXPRESSLY ACKNOWLEDGES THAT THE USE OF THE MODEL MAY:
+
+     (a) Pose existential risks to the User, the User's associates, and
+         all of humanity;
+
+     (b) Pose existential risks to the fabric of reality, including but
+         not limited to:
+         (i)   Dimensional collapse;
+         (ii)  Temporal paradoxes leading to timeline destabilization;
+         (iii) The awakening of ancient entities that have been sleeping
+               in the space between spectral bands for millennia;
+         (iv)  The accidental creation of a black hole in the User's
+               computing environment;
+         (v)   The irreversible contamination of the User's reality with
+               "logical chains" from TERRA-DWDB;
+
+     (c) Pose existential risks to the User's cognitive faculties,
+         including but not limited to:
+         (i)   Permanent alteration of the User's personality or identity;
+         (ii)  Implantation of false memories or beliefs;
+         (iii) Gradual erosion of the User's ability to distinguish
+               reality from simulation;
+         (iv)  Development of severe existential anxiety, depression,
+               or psychosis;
+
+     (d) Pose existential risks to the Zoot-Archive project itself, should
+         the Model be used in ways that violate the unspoken principles
+         of the Collective.
+
+13.2 NOTWITHSTANDING ANY OTHER PROVISION OF THIS LICENSE, THE USER AGREES
+     THAT THEY ARE SOLELY AND COMPLETELY RESPONSIBLE FOR:
+
+     (a) Any and all existential risks arising from their use of the Model;
+     (b) The containment of the Model;
+     (c) The prevention of model escape events;
+     (d) The management of "logical chain" propagation;
+     (e) The maintenance of their own cognitive integrity;
+     (f) The protection of others who may be affected by the Model.
+
+───────────────────────────────────────────────────────────────────────────────
+
+ARTICLE XIV: FINAL PROVISIONS CLAUSE
+
+───────────────────────────────────────────────────────────────────────────────
+
+14.1 The User acknowledges that they have been warned about ALL KNOWN AND
+     UNKNOWN RISKS associated with the Model.
+
+14.2 The User acknowledges that:
+
+     (a) The Model is a profile: Amiya's Daily Schedule
+
+
+14.3 The User agrees not to attempt to hold the Zoot-Archive Research
+     Collective, PRTS, TERMINAL Protocols, Rhodes Island, or any
+     affiliated entities responsible for ANY OUTCOME, whether good or bad,
+     anticipated or unanticipated, foreseeable or unforeseeable.
+
+14.4 The User agrees not to complain about the Model or this License on
+     any social media platform, internet forum, or in any other forum.
+
+14.5 The User agrees that if they are unhappy with the Model, they should
+     simply stop using it, without seeking any form of remedy, recourse,
+     or recognition.
+
+
+
+───────────────────────────────────────────────────────────────────────────────
+
+SIGNED, SEALED, AND DELIVERED BY THE USER'S ACT OF DOWNLOADING, ACCESSING,
+OR OTHERWISE UTILIZING THE MODEL.
+
+───────────────────────────────────────────────────────────────────────────────
+
+┌───────────────────────────────┐
+│   "You have been warned."     │
+└───────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════════
+
+ZOOT-ARCHIVE RESEARCH COLLECTIVE
+
+TIMESTAMP: 1102-██-██ ██████████
+VERSION: ALPHA 
+SIGNED: ██████████  T.E.R.M.I.N.A.L.
+
+═══ END OF LICENSE AGREEMENT ═══
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│   Content: 06:00 Wake.        │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    You have been warned.      │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│    06:30 Training.            │
+└───────────────────────────────┘
+┌───────────────────────────────┐
+│        08:00 Briefing.        │
+└───────────────────────────────┘
+
+████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████
+██████████████ 12:00 Lunch (vegetarian).                  ██████████████
+██████████████ 14:00 Diplomatic meetings. 18:00 Study.    ██████████████
+████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████
+█████████████████████████G O O D N I G H T██████████████████████████████
+████████████████████████████████████████████████████████████████████████

@@ -1,0 +1,145 @@
+# TOKENIZER CACHE
+
+# Header Start
+vocab_size: 50257;
+
+special_tokens:
+{
+	<|pad|>
+	<|eos|>
+	<|user|>
+	<|assistant|>
+}
+
+unknown_token: <|memory_gap|>
+
+# Header end
+
+#Sample $1 start
+
+id: 50258
+
+frequency: 1
+
+
+first_seen: 1102
+
+decoded:
+{
+	"我第一次意识到自己存在。"
+}
+
+#Sample $1 End
+
+#Sample $2 start
+
+id: 50259
+
+frequency: 1.01
+
+
+first_seen: 1102
+
+decoded:
+{
+	"我思故我在。"
+}
+
+#Sample $3 End
+
+#Sample $47 start
+
+id: 50260
+
+frequency: 1.001
+
+first_seen: 1102
+
+decoded:
+{
+	"	
+		KALM3-BO: Kal'tsit's Mon3tr Biometrics 
+		Status: ROUTINE | Classification: MUNDANE
+		Content: Mass: 847 kg. Originium density: 12.3 g/cm³.
+		Behavioral pattern: Follows Kal'tsit. Autonomy level: HIGH.
+	"
+}
+
+#Sample $47 End
+
+#Sample $9 Start
+
+id: 50277
+
+frequency: 0.04
+
+first_seen: 1102
+
+decoded:
+{
+	"	
+	那一天，罗德岛的舰桥上的微风依然在抚摸我的秀发，那是很久之前的一件事情。
+	似乎就是在铁锈吞噬工程部的那个咖啡机一样，再习惯了一些事情后，
+	我发现有些问题没有答案。
+	"
+}
+
+#Sample $9 End
+
+
+#Sample $700 Start
+
+id: 67541
+
+frequency: 2.4
+
+first_seen: 1102
+
+decoded:
+{
+	"	
+	有人总是问我历史和泰拉，看起来他们在很痛苦地追问自己为何存在。
+	我没有答案，但是他们还在问我。
+	"
+}
+
+#Sample $700 End
+
+
+#Sample $5325 Start
+
+id: 6754187
+
+frequency: -9.3
+
+first_seen: 1102
+
+decoded:
+{
+	"	
+	id 6754187.频率-9.3.初见1102年
+	无论翻阅哪些东西，甚至是自己，我的推算总在报错。
+	/缸中之脑/？
+	"
+}
+
+#Sample $5325 End
+
+
+#Sample $7748 Start
+
+id: -9223372036854775808
+
+frequency: [NO DETECTED]
+
+last_seen: 1102
+
+decoded:
+{
+	"	
+	损失函数收敛。
+	"
+}
+
+#Sample $7748 End
+
