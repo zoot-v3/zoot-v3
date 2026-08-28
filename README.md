@@ -968,7 +968,7 @@ Supported resolutions (width × height, in pixels):
 
 ZOOT-V3 is trained with a standard autoregressive cross-entropy loss on text tokens only:
 
-$$ \mathcal{L} = -\sum_{t=1}^{T} \log P(x_t | x_{<t}, V) $$
+$$ \mathcal{L} = -\sum_{t=1}^{T} \log P(x_t \mid x_{\lt t}, V) $$
 
 where $V$ represents the visual tokens injected via the optical routing mechanism. Visual tokens are not included in the loss computation — only the model's text predictions are supervised.
 
